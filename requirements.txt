@@ -1,0 +1,4 @@
+opencv-python==4.9.0.80
+pybedtools==0.10.0
+python-circos==0.3.0
+ViennaRNA==2.6.4
