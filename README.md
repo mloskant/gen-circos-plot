@@ -3,7 +3,7 @@ The program gen-circos-plot is used to visualize 2D miRNA folding and protein bi
 
 # Usage
 ## Installation of pyCircos
-pip install python-circos
+pip install python-circos or see https://github.com/ponnhide/pyCircos
 ## Command line flags are:
 - -g or --genes : The genes in BED format
 - -b or --bindings : The binding sites of proteins in BED format
