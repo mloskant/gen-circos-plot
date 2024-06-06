@@ -15,7 +15,7 @@ The program gen-circos-plot is used to visualize 2D miRNA folding and protein bi
 - `-o` or `--output` : Name of the folder in which all pngs are saved
 
 ## Example: 
-You must first sample_data/example_data_TAIR10_chr_all.fas.gz unpack and then:
+You must first <em>sample_data/example_data_TAIR10_chr_all.fas.gz</em> unpack and then:
 
 `python3 gencircosplot.py --genes sample_data/example_data_genes.bed --bindings sample_data/example_data_binding_sites.bed --fasta sample_data/example_data_TAIR10_chr_all.fas -o circoplots`
 
