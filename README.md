@@ -8,6 +8,7 @@ The program gen-circos-plot is used to visualize 2D miRNA folding and protein bi
 
 ## Installation of pyCircos
 `pip install python-circos` or see https://github.com/ponnhide/pyCircos
+
 ## Command line flags are:
 - `-g` or `--genes` : The genes in BED format
 - `-b` or `--bindings` : The binding sites of proteins in BED format
@@ -20,6 +21,13 @@ You must first sample_data/example_data_TAIR10_chr_all.fas.gz unpack and then:
 `python3 gencircosplot.py --genes sample_data/example_data_genes.bed --bindings sample_data/example_data_binding_sites.bed --fasta sample_data/example_data_TAIR10_chr_all.fas -o circoplots`
 
 # Gallery
+<img src="img/AT1G01100.1" width="500x500">
+<img src="img/AT1G04800.1" width="500x500">
+<img src="img/AT1G10522.1" width="500x500">
+<img src="img/AT1G21770.1" width="500x500">
+<img src="img/AT1G26630.1" width="500x500">
+<img src="img/AT5G01600.1" width="500x500">
+
 
 # Dependencies
 python 3.10 or later
